@@ -31,12 +31,21 @@ export default {
 </script>
 
 <style>
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
 .footer {
     background-color: #F6F7F7;
     display: flex;
     justify-content: end;
     align-items: center;
     height: 60px;
+    
+
 }
 
 .footer p {

@@ -8,11 +8,11 @@ import { LOGO_ICON_PATH, SCHEDULE_ICON_PATH, LEADERBOARD_ICON_PATH, FLAGAPI_URL 
         </div>
         <div class="link-items">
             <RouterLink class="link-item" to="/schedule">
-                <img :src="SCHEDULE_ICON_PATH" class="icon" />
+                <img :src="SCHEDULE_ICON_PATH" class="icon" alt="Link Icon"/>
                 <p>Schedule</p>
             </RouterLink>
             <RouterLink class="link-item" to="/leaderboard">
-                <img :src="LEADERBOARD_ICON_PATH" class="icon" />
+                <img :src="LEADERBOARD_ICON_PATH" class="icon" alt="Link Icon"/>
                 <p>Leaderboard</p>
             </RouterLink>
         </div>
